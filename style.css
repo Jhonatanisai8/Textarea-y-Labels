@@ -15,7 +15,7 @@ h2 {
 }
 
 form {
-    background-color:transparent;
+    background-color: transparent;
     padding: 40px 0;
     max-width: 600px;
     margin: auto;
@@ -28,10 +28,11 @@ form {
     padding: 6px 20px;
 }
 
-input {
+input,
+textarea {
     width: 100%;
     box-sizing: border-box;
-    padding: 6px 12px;
+    padding: 6px 8px;
     border: none;
     border: 1px solid #999;
     box-shadow: 0px 0px 15px #0001;
@@ -39,4 +40,12 @@ input {
     border-radius: 4px;
     color: #eee;
     letter-spacing: 0.1em;
+}
+
+textarea{
+    min-width: 100%;
+    /* para que no se cambie de tamaño */
+    resize: none;
+    min-height: 100px;
+    max-width: 200px;
 }
