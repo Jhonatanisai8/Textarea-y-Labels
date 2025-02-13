@@ -30,7 +30,7 @@ form {
 }
 
 input,
-textarea {
+textarea,select {
     width: 100%;
     box-sizing: border-box;
     padding: 6px 8px;
@@ -44,6 +44,9 @@ textarea {
     /* margin-top: 4px; */
 }
 
+option{
+    background-color: #000;
+}
 textarea{
     min-width: 100%;
     /* para que no se cambie de tamaño */
@@ -54,4 +57,9 @@ textarea{
 label{
     font-size: 0.9em;
     line-height: 3;
+}
+
+.checkbox{
+    width: auto;
+    height: 10px;
 }
