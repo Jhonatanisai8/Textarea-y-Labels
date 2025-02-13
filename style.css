@@ -22,6 +22,7 @@ form {
     box-shadow: 0px 0px 35px #fff6;
     margin-top: 50px;
     border-radius: 1rem;
+    font-size: 14px;
 }
 
 .form_input {
@@ -34,18 +35,23 @@ textarea {
     box-sizing: border-box;
     padding: 6px 8px;
     border: none;
-    border: 1px solid #999;
+    border: 1px solid #7DCD85;
     box-shadow: 0px 0px 15px #0001;
     background-color: transparent;
     border-radius: 4px;
-    color: #eee;
+    color: #7DCD85;
     letter-spacing: 0.1em;
+    /* margin-top: 4px; */
 }
 
 textarea{
     min-width: 100%;
     /* para que no se cambie de tamaño */
     resize: none;
-    min-height: 100px;
-    max-width: 200px;
+    min-height: 101px;
+}
+
+label{
+    font-size: 0.9em;
+    line-height: 3;
 }
