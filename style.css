@@ -30,7 +30,8 @@ form {
 }
 
 input,
-textarea,select {
+textarea,
+select {
     width: 100%;
     box-sizing: border-box;
     padding: 6px 8px;
@@ -44,22 +45,34 @@ textarea,select {
     /* margin-top: 4px; */
 }
 
-option{
+option {
     background-color: #000;
 }
-textarea{
+
+textarea {
     min-width: 100%;
     /* para que no se cambie de tamaño */
     resize: none;
     min-height: 101px;
 }
 
-label{
+label {
     font-size: 0.9em;
     line-height: 3;
 }
 
-.checkbox{
+.checkbox {
     width: auto;
     height: 10px;
+}
+
+fieldset {
+    padding: 8px 6px 20px 6px;
+    margin: 25px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+legend {
+    padding: 0 6px;
 }
