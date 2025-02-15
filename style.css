@@ -76,3 +76,8 @@ fieldset {
 legend {
     padding: 0 6px;
 }
+
+a {
+    color: #69f;
+    text-decoration: none;
+}
